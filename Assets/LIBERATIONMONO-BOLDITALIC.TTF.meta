@@ -1,0 +1,24 @@
+fileFormatVersion: 2
+guid: 7bb42b43b58ae0b4290dd06d1c162ee4
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 300
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Liberation Mono
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: f728ac5cfb9be1140aaa6f116b35985c, type: 3}
+  - {fileID: 12800000, guid: d44ab3f4c6ee28c48813c62ea22da2fb, type: 3}
+  - {fileID: 12800000, guid: 97f14b169007d434c85819e5015e53c2, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
