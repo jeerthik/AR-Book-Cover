@@ -5,7 +5,8 @@ using Vuforia;
 
 public class VBTN : MonoBehaviour
 {
-    public GameObject summary;
+    public GameObject info; // relevant information
+    public GameObject summary; // summary of book
     public VirtualButtonBehaviour Vb;
     // Start is called before the first frame update
     void Start()
@@ -19,13 +20,15 @@ public class VBTN : MonoBehaviour
 
     public void OnButtonPressed(VirtualButtonBehaviour vb)
     {
-        summary.SetActive(true);
+        info.SetActive(false); // hide relevant info
+        summary.SetActive(true); // show summary
 
     }
 
     public void OnButtonReleased(VirtualButtonBehaviour vb)
     {
-        summary.SetActive(false);
+        info.SetActive(true); // show relevant info
+        summary.SetActive(false); // hide summary
         
     }
 }
