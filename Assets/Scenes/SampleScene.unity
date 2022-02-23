@@ -373,7 +373,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   info: {fileID: 0}
-  summary: {fileID: 1250769027}
+  review: {fileID: 0}
   Vb: {fileID: 2089247745}
 --- !u!1001 &181870275
 PrefabInstance:
@@ -6279,7 +6279,7 @@ GameObject:
   - component: {fileID: 1250769030}
   - component: {fileID: 1250769029}
   m_Layer: 0
-  m_Name: Summary
+  m_Name: Review
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6899,5 +6899,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   info: {fileID: 1415628573}
-  summary: {fileID: 1250769027}
+  review: {fileID: 1250769027}
   Vb: {fileID: 2089247745}
