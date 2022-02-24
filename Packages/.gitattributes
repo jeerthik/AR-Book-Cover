@@ -1,3 +1,4 @@
 ArtifactDB filter=lfs diff=lfs merge=lfs -text
 *.tgz filter=lfs diff=lfs merge=lfs -text
 VuforiaEngine* filter=lfs diff=lfs merge=lfs -text
+HGBookCover* filter=lfs diff=lfs merge=lfs -text
