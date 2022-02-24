@@ -37,6 +37,7 @@ To retrieve these files when cloning, make sure to have GitHub Large File Storag
 **First Method: Use GitHub Repo as Project**
 1. Within Unity Hub, go to Projects and click Open. Then select the folder to which you cloned this GitHub repository.
 2. Now all the relevant resources are imported into a project. Click the 'Play' icon at the top of the screen to test.
+3. Hold up the book or images of the front and back cover to see the AR objects.
 
 **Second Method: Use UnityPackage within GitHub Repo**
 1. Open a new 3D Project in Unity Hub
@@ -44,6 +45,7 @@ To retrieve these files when cloning, make sure to have GitHub Large File Storag
 3. Locate the HGBookCover package within the Packages folder and select it to import.
 4. Now all the relevant assets are imported. Make sure to delete the Main Camera if present in the SampleScene.
 5. Click the 'Play' icon at the top of the screen to test.
+6. Hold up the book or images of the front and back cover to see the AR objects.
 
 ## Limitations
 1. The back cover is not as easily detected by the AR Camera as the front. Hence, it may take some moving around and calibration of the back cover in position with the camera, in order to trigger the AR back cover to appear. 
