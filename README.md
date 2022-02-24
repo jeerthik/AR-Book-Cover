@@ -1,4 +1,8 @@
 # AR-Book-Cover
+*Created by: Jeerthi Kannan*
+
+*Class: CS 8395-01 Spring 22*
+
 This repository contains code that is used to create an augmented reality book cover, which has augmented text and images.
 ***
 
@@ -19,7 +23,7 @@ A video demo and images of the original front and back covers of the book are st
 ### The following files are stored using GitHub LFS (Large File Storage), as these files were too large to store in this repository without it:
 - `Packages/com.ptc.vuforia.engine-10.5.5.tgz`
 - `Packages/HGBookCover`
-- `Media/AR Book Demo`
+- `Media/AR HG Book Demo`
 
 To retrieve these files when cloning, make sure to have GitHub Large File Storage installed, by running `git lfs install`
 
@@ -42,6 +46,6 @@ To retrieve these files when cloning, make sure to have GitHub Large File Storag
 5. Click the 'Play' icon at the top of the screen to test.
 
 ## Limitations
-1. The back cover is not as easily detected by the AR Camera as the front. Hence, it may take some moving around and calibration of the back cover in position with the camera, in order to trigger the AR cover to appear. 
+1. The back cover is not as easily detected by the AR Camera as the front. Hence, it may take some moving around and calibration of the back cover in position with the camera, in order to trigger the AR back cover to appear. 
 2. Depending on the angle the image is held, the AR objects may seem to be floating on top of the book or in the air. This may be related with how the objects are anchored.
 3. The virtual button is triggered only when continuously pressed. Otherwise, the effect of a previous depress does not carry over when you take your hand away.
