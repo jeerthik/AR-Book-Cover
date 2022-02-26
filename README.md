@@ -12,7 +12,7 @@ The front cover displays the title and author in augmented text over a black bac
 
 The back cover displays the book's relevant information. A virtual button is added on the back cover to toggle between the book's relevant information and a short review. To trigger the virtual button, place your finger or hand on top of the bottom middle section of the book.
 
-A video demo and images of the original front and back covers of the book are stored in the **Media** folder.
+Images of the original front and back covers of the book are stored in the **Media** folder.
 
 ## Tutorials Used
 1. Create image targets, following the first method using the Vuforia Developer Portal (https://www.youtube.com/watch?v=Z4bBMpa4xWo)
@@ -23,7 +23,6 @@ A video demo and images of the original front and back covers of the book are st
 ### The following files are stored using GitHub LFS (Large File Storage), as these files were too large to store in this repository without it:
 - `Packages/com.ptc.vuforia.engine-10.5.5.tgz`
 - `Packages/HGBookCover`
-- `Media/AR HG Book Demo`
 
 To retrieve these files when cloning, make sure to have GitHub Large File Storage installed, by running `git lfs install`
 
